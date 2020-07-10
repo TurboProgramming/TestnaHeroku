@@ -9,7 +9,7 @@ def index():
     name= "Frnce"
     current_year="2070"
 
-    cities = ["Prnjavor", "Maribor", "Titograd", "Moiskva"]
+    cities = ["Prnjavor", "Maribor", "Titograd", "Moskva"]
     #return "Hello, SmartNinja!"
     return render_template("index.html", name=name, current_year=current_year,
                            cities=cities)
